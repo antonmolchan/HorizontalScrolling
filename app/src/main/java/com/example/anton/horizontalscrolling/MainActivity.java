@@ -5,7 +5,6 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -74,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
         iv6.setImageBitmap(bitmap6);
         iv7.setImageBitmap(bitmap7);
         iv8.setImageBitmap(bitmap8);
-        iv9.setImageBitmap(bitmap9);
-        iv10.setImageBitmap(bitmap10);
+//        iv9.setImageBitmap(bitmap9);
+//        iv10.setImageBitmap(bitmap10);
 
         horizontalScrollView = (HorizontalScrollView) findViewById(R.id.horizontalScrollView);
 
